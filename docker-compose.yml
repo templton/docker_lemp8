@@ -14,7 +14,9 @@ services:
             - .:/var/www:cached
 
     nginx:
-        image: atillay/lemp-nginx
+        build:
+            context: .
+            dockerfile: docker/nginx/Dockerfile
         ports:
             - ${SERVER_PORT}:80
         volumes:
