@@ -12,7 +12,7 @@
 
 | Service      | Path                    |
 | ------------ | ----------------------- |
-| Website      | `http://localhost:8080` | 
+| Website      | `http://localhost:8180` | 
 | PhpMyAdmin   | `http://localhost:8081` |
 | Mail catcher | `http://localhost:8082` |
 | Logs         | `log/`                  |
